@@ -1,0 +1,22 @@
+<svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.43071 0.342123L4.09877 4.67406L1.6163 2.19159L0.780396 3.0275L4.09877 6.34587L9.26661 1.17803L8.43071 0.342123Z" fill="#F2F2F2"/>
+</svg>
+import * as React from "react"
+import Svg, { SvgProps, Path } from "react-native-svg"
+
+const SvgComponent = (props: SvgProps) => (
+  <Svg
+    width={10}
+    height={7}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <Path
+      d="M8.43.342 4.1 4.674 1.616 2.192l-.836.835L4.1 6.346l5.168-5.168L8.43.342Z"
+      fill="#F2F2F2"
+    />
+  </Svg>
+)
+
+export default SvgComponent
