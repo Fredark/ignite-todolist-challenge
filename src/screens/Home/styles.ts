@@ -5,9 +5,12 @@ import { Logo as Icon } from '@icons'
 export const Tag = styled.View`
   background-color: ${(props) => props.theme.colors.backgroundColor};
   flex: 1 1 auto;
-  padding: 70px 24px;
+  padding: 70px 24px 24px;
 `
-export const Logo = styled(Icon)`
+export const Logo = styled(Icon).attrs({
+  height: 32,
+  width: 110
+})`
   align-self: center;
   flex: 0 0 auto;
   margin-bottom: 40px;

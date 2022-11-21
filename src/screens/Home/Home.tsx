@@ -1,13 +1,11 @@
-import { Text } from 'react-native'
+import { Tasks } from '@components';
 import { Tag, Logo } from './styles'
 
 export const Home: React.FC = () => {
   return (
     <Tag>
-      <Logo height={32} width={110}/>
-      <Text>
-        Hello World!
-      </Text>
+      <Logo />
+      <Tasks />
     </Tag>
   );
 }

@@ -1,3 +1,5 @@
 export * from './Check'
 export * from './Logo'
 export * from './Plus'
+export * from './Clipboard'
+export * from './Trash'

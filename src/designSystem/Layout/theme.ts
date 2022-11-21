@@ -22,8 +22,8 @@ export const theme: DefaultTheme = {
   },
   fonts: {
     primary: {
-      400: '"Inter_400Regular", "Helvetica Neue", sans-serif',
-      700: '"Inter_700Bold", "Helvetica Neue", sans-serif',
+      regular: 'Inter_400Regular',
+      bold: 'Inter_700Bold',
     }
   },
   transitions: {

@@ -23,8 +23,8 @@ declare module 'styled-components' {
     }
     fonts: {
       primary: {
-        400: string
-        700: string
+        regular: string
+        bold: string
       }
     }
     transitions: {
